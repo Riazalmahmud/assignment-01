@@ -49,7 +49,7 @@ color: #ffffff;
 border-radius: 20px;
 }/* End slider section css */
 
-
+/* Star about section css */
 .about-section{
     display: flex;
     background-image: url(images/shapes/7.png);
@@ -72,4 +72,40 @@ color: #4e423e;
     background-image: linear-gradient(#fd4427,#faa629);
     color: #ffffff;
     border-radius: 20px;
-    }
+    }/* End about section css */
+
+/* Star blog section css */
+.bolg-section{
+    text-align: center;
+    background-color: #f6f8fa;
+}4
+.bolg-section h2{
+        font-size: 30px;
+        color: #4e423e;
+}
+.bolg{
+    display: flex;
+    margin-top: 40px;
+}
+.blog-content {
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 7px;
+    box-shadow: 5px 10px 5px #d8d5d5;
+    background-color: #ffffff;
+}
+.blog-content img{
+width: 90%;
+padding: 5%;
+}
+.blog-content h3 a{
+text-decoration: none;
+font-size: 19px;
+}
+.blog-content p {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+    padding: 5%;
+}
