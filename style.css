@@ -7,6 +7,9 @@ body{
 }
 
 /* Star Global css */
+.display-flex{
+    display: flex;
+}
 .padding-top{
     padding-top: 100px;
 }
@@ -20,10 +23,13 @@ body{
     margin-right: 1%;
 }/* End Global css */
 
-/* Star slider section css */
-.slider{
-    display: flex;
+.brand-logo{
+width: 40%;
+padding-left: 3%;
+padding-right: 3%;
 }
+/* Star slider section css */
+
 .half-width{
     width: 50%;
     padding-left: 3%;
@@ -57,7 +63,7 @@ border-radius: 20px;
 
 /* Star about section css */
 .about-section{
-    display: flex;
+    
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     
@@ -84,14 +90,15 @@ color: #4e423e;
 .bolg-section{
     text-align: center;
     background-color: #f6f8fa;
+    margin-top: -4px;
 }4
 .bolg-section h2{
         font-size: 30px;
         color: #4e423e;
 }
 .bolg{
-    display: flex;
-    margin-top: 40px;
+
+ margin-top: 40px;
 }
 .blog-content {
     width: 30%;
@@ -123,7 +130,6 @@ font-size: 19px;
     
 }
 .social-media-flower{
-    display: flex;
     padding-top: 40px;
     background-color: #ffffff;
     padding: 5%;
