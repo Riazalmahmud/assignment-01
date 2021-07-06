@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Star Global css */
+.padding-top{
+    padding-top: 100px;
+}
+.dark-yellow-color{
+    color: #fc713d;
+}/* End Global css */
+
+/* Star slider section css */
+.slider{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+.half-width img{
+width: 95%;
+}
+.half-width h1{
+    font-size: 50px;
+    color: rgb(58, 58, 58);
+}
+.half-width p {
+    color: rgb(58, 58, 58);
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 34px;
+}
+.half-width a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 7px 20px 7px 20px;
+    font-style: normal;
+}
+.order-button{
+background-image: linear-gradient(#fb934a,#fe482e);
+color: #ffffff;
+border-radius: 20px;
+}/* End slider section css */
+
+
+.about-section{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    
+}
+.image-width img {
+    width: 53%;
+    height: 100%;
+   padding-left: 100px;
+}
+.about-design{
+    padding-top: 100px;
+}
+.about-design h2{
+font-size: 30px;
+color: #4e423e;
+}
+.contact-button{
+    background-image: linear-gradient(#fd4427,#faa629);
+    color: #ffffff;
+    border-radius: 20px;
+    }
