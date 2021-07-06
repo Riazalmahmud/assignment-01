@@ -10,8 +10,14 @@ body{
 .padding-top{
     padding-top: 100px;
 }
+.heading-title {
+    width: 50%;
+    margin: 0px auto;
+    line-height: 40px;
+}
 .dark-yellow-color{
     color: #fc713d;
+    margin-right: 1%;
 }/* End Global css */
 
 /* Star slider section css */
@@ -108,4 +114,34 @@ font-size: 19px;
     font-weight: 300;
     text-align: justify;
     padding: 5%;
+}
+.social-media{
+    text-align: center;
+    background-color: #f6f8fa;
+    height: 200px;
+    padding-bottom: 200px;
+    
+}
+.social-media-flower{
+    display: flex;
+    padding-top: 40px;
+    background-color: #ffffff;
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    box-shadow: 5px 10px 5px #d8d5d5;
+}
+.social-media-single{
+    width: 30%;
+}
+footer{
+    height: 200px;
+    background-color: rgb(27, 22, 22);
+    text-align: center;
+    color: rgb(241, 239, 239);
+}
+footer h1{
+    
+    padding-top: 50px;
 }
