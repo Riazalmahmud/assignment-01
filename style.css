@@ -6,7 +6,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Star Global css */
+/* Start Global css */
 .display-flex{
     display: flex;
 }
@@ -22,14 +22,32 @@ body{
     color: #fc713d;
     margin-right: 1%;
 }/* End Global css */
-
+/* Start navigation section css */
 .brand-logo{
 width: 40%;
-padding-left: 3%;
-padding-right: 3%;
+padding: 40px 3% 0% 3%;
 }
-/* Star slider section css */
+.navbar{
+    width: 60%;
+    padding-top: 40px;
+}
+.navbar ul{
+    padding: 0;
+    margin: 0;
+}
+.navbar ul li{
+    list-style: none;
+    float: left;
+}
+.navbar ul li a {
+    text-decoration: none;
+    padding: 15px;
+    color: #3a3a3a;
+    text-transform: capitalize;
+    font-size: 17px;
+}/* End navigation section css */
 
+/* Start slider section css */
 .half-width{
     width: 50%;
     padding-left: 3%;
@@ -61,7 +79,7 @@ color: #ffffff;
 border-radius: 20px;
 }/* End slider section css */
 
-/* Star about section css */
+/* Start about section css */
 .about-section{
     
     background-image: url(images/shapes/7.png);
@@ -86,7 +104,7 @@ color: #4e423e;
     border-radius: 20px;
     }/* End about section css */
 
-/* Star blog section css */
+/* Start blog section css */
 .bolg-section{
     text-align: center;
     background-color: #f6f8fa;
@@ -121,7 +139,9 @@ font-size: 19px;
     font-weight: 300;
     text-align: justify;
     padding: 5%;
-}
+}/* End blog section css */
+
+/* Start social media section css */
 .social-media{
     text-align: center;
     background-color: #f6f8fa;
@@ -140,7 +160,9 @@ font-size: 19px;
 }
 .social-media-single{
     width: 30%;
-}
+}/* End social media section css */
+
+/* Start footer section css */
 footer{
     height: 200px;
     background-color: rgb(27, 22, 22);
@@ -150,4 +172,4 @@ footer{
 footer h1{
     
     padding-top: 50px;
-}
+}/* End footer section css */
